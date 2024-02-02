@@ -62,7 +62,7 @@ find_version_from_git_tags() {
 }
 
 # Install dependencies
-check_packages curl git ca-certificates
+check_packages curl git ca-certificates unzip
 
 # Use a temporary locaiton for novops archive
 export TMP_DIR="/tmp/tmp-novops"
