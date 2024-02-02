@@ -75,7 +75,7 @@ find_version_from_git_tags NOVOPS_VERSION 'https://github.com/PierreBeucher/novo
 
 curl -L -o /tmp/tmp-novops/novops.zip "https://github.com/PierreBeucher/novops/releases/download/v${NOVOPS_VERSION}/novops-X64-Linux.zip"
 unzip /tmp/tmp-novops/novops.zip
-mv /tmp/tmp-novops/novops /usr/local/bin/novops
+mv novops /usr/local/bin/novops
 
 # Clean up
 rm -rf /var/lib/apt/lists/*
