@@ -3,6 +3,7 @@
     "id": "novops",
     "version": "0.1.0",
     "description": "Install [novops](https://github.com/PierreBeucher/novops)",
+    "documentationURL": "https://novops.dev",
     "options": {
         "version": {
             "type": "string",

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 set -e
 
 NOVOPS_VERSION=${VERSION:-"latest"}
@@ -33,7 +33,7 @@ find_version_from_git_tags() {
     local requested_version=${!variable_name}
     if [ "${requested_version}" = "none" ]; then return; fi
     local repository=$2
-    local prefix=${3:-"tags/"}
+    local prefix=${3:-"tags/v"}
     local separator=${4:-"."}
     local last_part_optional=${5:-"false"}    
     if [ "$(echo "${requested_version}" | grep -o "." | wc -l)" != "2" ]; then
