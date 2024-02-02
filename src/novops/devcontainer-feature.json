@@ -1,0 +1,16 @@
+{
+    "name": "novops",
+    "id": "novops",
+    "version": "0.1.0",
+    "description": "Install [novops](https://github.com/PierreBeucher/novops)",
+    "options": {
+        "favorite": {
+            "type": "string",
+            "default": "latest",
+            "description": "Choose novops version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
