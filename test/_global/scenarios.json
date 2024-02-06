@@ -2,7 +2,8 @@
     "all": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "novops": {}
+            "novops": {},
+            "bw-cli-persistent": {}
         }
     }
 }

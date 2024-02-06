@@ -1,0 +1,17 @@
+{
+    "name": "Bitwarden Cli Persistence",
+    "id": "bw-cli-persistence",
+    "version": "0.1.0",
+    "description": "Preserve ~/.config/Bitwarden CLI folder across container instances (avoids needing to login after rebuilding)",
+    "options": {},
+    "mounts": [
+        {
+            "source": "${devcontainerId}-bw",
+            "target": "/dc/bw",
+            "type": "volume"
+        }
+    ],
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/bitwarden-cli"
+    ]
+}
