@@ -16,7 +16,7 @@ if [ -e "$_REMOTE_USER_HOME/.config/Bitwarden CLI" ]; then
   mv "$_REMOTE_USER_HOME/.config/Bitwarden CLI" "$_REMOTE_USER_HOME/.config/Bitwarden CLI-old"
 fi
 
-ln -s /dc/bw/ "$_REMOTE_USER_HOME/.config/Bitwarden CLI"
+ln -s -p /dc/bw/ "$_REMOTE_USER_HOME/.config/Bitwarden CLI"
 chown -R "${_REMOTE_USER}:${_REMOTE_USER}" "$_REMOTE_USER_HOME/.config/Bitwarden CLI"
 
 # chown mount (only attached on startup)
