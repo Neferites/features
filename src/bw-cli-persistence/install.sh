@@ -17,8 +17,8 @@ if [ -e "$_REMOTE_USER_HOME/.config/Bitwarden CLI" ]; then
 fi
 
 # Create .config if needed
-if [ ${_REMOTE_USER} = "root" ]; then
-  mkdir -p "$_REMOTE_USER/.config"
+if [ "${_REMOTE_USER}" = "root" ]; then
+  mkdir -p "$_REMOTE_USER_HOME/.config"
 fi
 
 ln -s /dc/bw/ "$_REMOTE_USER_HOME/.config/Bitwarden CLI"
