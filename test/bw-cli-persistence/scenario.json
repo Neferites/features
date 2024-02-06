@@ -1,0 +1,9 @@
+{
+    "bw-cli-persistence": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ghcr.io/devcontainers-contrib/features/bitwarden-cli:1": {},
+            "bw-cli-persistence": {}
+        }
+    }
+}
