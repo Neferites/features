@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-      - bw
+      - bw-cli-persistence
   pull_request:
   workflow_dispatch:
 
