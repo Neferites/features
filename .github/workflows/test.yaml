@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - novops
+          - bw-cli-persistence
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,6 +35,7 @@ jobs:
       matrix:
         features:
           - novops
+          - bw-cli-persistence
     steps:
       - uses: actions/checkout@v3
 
