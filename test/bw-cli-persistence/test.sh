@@ -12,7 +12,7 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "bw persistence" ls -lah ~/.
+check "bw persistence" ls -lah ~/.config/
 check "bw version" bw --version
 
 # Report result
