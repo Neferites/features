@@ -1,7 +1,7 @@
 {
     "name": "Bitwarden Cli Persistence",
     "id": "bw-cli-persistence",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Preserve ~/.config/Bitwarden CLI folder across container instances (avoids needing to login after rebuilding)",
     "options": {},
     "mounts": [
