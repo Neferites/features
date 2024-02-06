@@ -14,8 +14,6 @@ fi
 if [ -e "$_REMOTE_USER_HOME/.config/Bitwarden CLI" ]; then
   echo "Moving existing .config/Bitwarden CLI folder to .config/Bitwarden CLI-old"
   mv "$_REMOTE_USER_HOME/.config/Bitwarden CLI" "$_REMOTE_USER_HOME/.config/Bitwarden CLI-old"
-else
-  mkdir -p "$_REMOTE_USER_HOME/.config/Bitwarden CLI"
 fi
 
 ln -s /dc/bw/ "$_REMOTE_USER_HOME/.config/Bitwarden CLI"
